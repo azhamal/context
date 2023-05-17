@@ -1,7 +1,7 @@
 const About =()=> {
     return (
         <div>
-            about page
+            Вы находитесь на главной странице 
         </div>
     )
 }
