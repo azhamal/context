@@ -9,7 +9,7 @@ const Header =()=> {
             <Link to={'/goods'}> Товары</Link>
             <Link to={'/about'}> О нас</Link>
             <Link to={'/contacts'}> Контакты</Link>
-            <Link to={'/address'}> Адрес</Link>
+            <Link to={'/address'}> Адресc</Link>
             {
             token?
             <button onClick={()=>logout}>Выйти из аккаунт</button>
