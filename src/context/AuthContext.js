@@ -15,7 +15,7 @@ export function useAuth () {
 export function AuthProvider ({children}) {
     const DEFAULT_TOKEN =localStorage.getItem('token')
     
-    const [token, setToken] = useState('DEFAULT_TOKEN');
+    const [token, setToken] = useState(DEFAULT_TOKEN);
     const login =(token)=>{
         setToken(token)
         localStorage.setItem('token', token)

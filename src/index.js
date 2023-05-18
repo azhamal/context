@@ -13,6 +13,7 @@ import MainPage from './pages/MainPage';
 import Goods from './pages/Goods';
 import Authorization from './pages/Authorization';
 import { AuthProvider } from './context/AuthContext';
+import Address from './pages/Address';
 
 const router = createBrowserRouter([
   {
@@ -38,7 +39,11 @@ const router = createBrowserRouter([
       {
         path: '/authorization',
         element: <Authorization/>
-      }
+      },
+      {
+        path: '/address',
+        element: <Address/>
+      },
     ]
   },
   {
